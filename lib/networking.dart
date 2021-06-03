@@ -7,7 +7,7 @@ import 'package:flutter/foundation.dart';
 
 enum Method { post, get, put, delete }
 
-class DioManager1 {
+class DioManager {
   var dio = Dio();
   var domainRequest = 'https://trungtamcanhbao.vn/api';
 
